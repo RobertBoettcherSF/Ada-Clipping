@@ -23,7 +23,7 @@ Foley / van Dam, and Hearn & Baker.
 | --- | --- | --- |
 | **Clip region (2-D)** | Axis-aligned `Clip_Rect` | Window / viewport |
 | **Point clip** | Inclusive `Point_In_Rect` / `Clip_Point` | Accept / reject |
-| **Line clip** | Embedded **Liang–Barsky** | Parametric \(t\) vs four edges |
+| **Line clip** | Embedded **Liang–Barsky** | Parametric $t$ vs four edges |
 | **Polygon clip** | Embedded **Sutherland–Hodgman** | Convex clip poly / rect |
 | **Composite clip** | `Intersect_Clip_Regions` | User ∩ device AA rects |
 | **2-D frustum** | Convex quad + half-plane clip | Educational view frustum |
